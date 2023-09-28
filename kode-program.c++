@@ -48,6 +48,7 @@ int main() {
         counter++;
     }
 
+    cout << endl;
     // Penggunaan do while
     int bilangan = 1;
     do {
