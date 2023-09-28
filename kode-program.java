@@ -1,8 +1,10 @@
+import java.util.Scanner; // Import kelas Scanner
+
 public class Main {
     public static void main(String[] args) {
         // Deklarasi variabel dan tipe data
         int angka = 10;
-        float pecahan = 3.14f;
+        float pecahan = 3.14f; // Gunakan tanda f setelah pecahan
         char karakter = 'A';
 
         // Output
@@ -53,7 +55,7 @@ public class Main {
         } while (bilangan <= 5);
 
         // Input
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int inputAngka;
         System.out.print("\nMasukkan sebuah angka: ");
         inputAngka = scanner.nextInt();
